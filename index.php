@@ -1,11 +1,11 @@
 <?php
-$url = $_GET['url'];
 
-if(!$url){
-	echo "empty url";
+if($_GET['url']){
+	$url = $_GET['url'];
+	echo $url;
 }
 else{
-	echo $url;
+	echo "empty url";
 }
 
 
