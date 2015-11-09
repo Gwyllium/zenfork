@@ -1,2 +1,11 @@
 <?php
-echo "Hello!";
+$url = $_GET['url'];
+
+if(!$url){
+	echo "empty url";
+}
+else{
+	echo $url;
+}
+
+
