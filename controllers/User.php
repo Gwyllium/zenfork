@@ -6,8 +6,8 @@ class User{
     }
     public function add($array=false){
         echo "Метод ADD <br>";
-        echo "$array[0] <br>";
-        echo "$array[1] <br>";
-        echo "$array[2] <br>";
+        echo "<pre>";
+        echo print_r($array);
+        echo "</pre>";
     }
 }
