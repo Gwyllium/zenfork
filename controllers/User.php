@@ -1,13 +1,16 @@
 <?php
 
-class User{
+class User extends Controller{
     public function __construct() {
         echo "Контроллер User <br>";
     }
-    public function add($array=false){
+
+	public function index(){
+		echo "метод по умолчанию";
+	}
+
+
+    public function add(){
         echo "Метод ADD <br>";
-        echo "<pre>";
-        echo print_r($array);
-        echo "</pre>";
     }
 }
