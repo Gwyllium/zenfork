@@ -3,6 +3,7 @@
 //эту функцию потом перенести в ядро
 function __autoload($class_name)
 {
+	$config = include 'config.php';
 
 	$file="include/".$class_name.".php";
 
